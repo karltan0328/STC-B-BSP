@@ -1,0 +1,170 @@
+{
+  "name": "without_bsp",
+  "type": "C51",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "adc",
+        "files": [
+          {
+            "path": "src/karl_adc.c"
+          },
+          {
+            "path": "src/karl_adc.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "beep",
+        "files": [
+          {
+            "path": "src/karl_beep.c"
+          },
+          {
+            "path": "src/karl_beep.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "callback",
+        "files": [
+          {
+            "path": "src/karl_callback.c"
+          },
+          {
+            "path": "src/karl_callback.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "displayer",
+        "files": [
+          {
+            "path": "src/karl_displayer.c"
+          },
+          {
+            "path": "src/karl_displayer.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "key",
+        "files": [
+          {
+            "path": "src/karl_key.c"
+          },
+          {
+            "path": "src/karl_key.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "main",
+        "files": [
+          {
+            "path": "src/main.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "music",
+        "files": [
+          {
+            "path": "src/karl_music.c"
+          },
+          {
+            "path": "src/karl_music.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "STC",
+        "files": [
+          {
+            "path": "src/STC15F2K60S2.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "stepmotor",
+        "files": [
+          {
+            "path": "src/karl_stepmotor.c"
+          },
+          {
+            "path": "src/karl_stepmotor.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "timer0",
+        "files": [
+          {
+            "path": "src/karl_timer0.c"
+          },
+          {
+            "path": "src/karl_timer0.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "timer1",
+        "files": [
+          {
+            "path": "src/karl_timer1.c"
+          },
+          {
+            "path": "src/karl_timer1.h"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "cb846758735b56d2536ced97c635fe34"
+  },
+  "targets": {
+    "Target 1": {
+      "excludeList": [],
+      "toolchain": "Keil_C51",
+      "compileConfig": {
+        "options": "null"
+      },
+      "uploader": "Custom",
+      "uploadConfig": {
+        "bin": "",
+        "commandLine": "",
+        "eraseChipCommand": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../../../../../Keil_v5/C51/INC/STC"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": []
+      }
+    }
+  },
+  "version": "3.3"
+}
